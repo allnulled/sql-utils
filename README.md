@@ -35,6 +35,8 @@ const query = `SELECT * FROM user WHERE ${whereSQL}`;
 
 
 
+----
+
 #### `SQLUtils.die(...args:any)`
 
 
@@ -46,6 +48,8 @@ const query = `SELECT * FROM user WHERE ${whereSQL}`;
 
 
 
+
+----
 
 #### `SQLUtils.getPropertiesSQL(property:String|Any, table:String|Boolean)`
 
@@ -71,6 +75,8 @@ const query = `SELECT * FROM user WHERE ${whereSQL}`;
 
 
 
+----
+
 #### `SQLUtils.generateToken(length:Integer, charset:Array)`
 
 
@@ -94,6 +100,8 @@ const query = `SELECT * FROM user WHERE ${whereSQL}`;
 
 
 
+
+----
 
 #### `SQLUtils.rowsToObject(rows:Array<Object>, table:String, columnId:String)`
 
@@ -121,6 +129,8 @@ const query = `SELECT * FROM user WHERE ${whereSQL}`;
 
 
 
+
+----
 
 #### `SQLUtils.whereToSQL(where:Array|Object, table:String, andPrefix:Boolean, defaultValue:String)`
 

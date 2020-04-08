@@ -27,6 +27,8 @@ class SQLUtils {
 
 	/**
 	 * 
+	 * ----
+	 * 
 	 * #### `SQLUtils.die(...args:any)`
 	 * 
 	 * @type Static method
@@ -40,6 +42,8 @@ class SQLUtils {
 	}
 
 	/**
+	 * 
+	 * ----
 	 * 
 	 * #### `SQLUtils.getPropertiesSQL(property:String|Any, table:String|Boolean)`
 	 * 
@@ -61,6 +65,8 @@ class SQLUtils {
 
 	/**
 	 * 
+	 * ----
+	 * 
 	 * #### `SQLUtils.generateToken(length:Integer, charset:Array)`
 	 * 
 	 * @type Static method
@@ -81,6 +87,8 @@ class SQLUtils {
 	}
 
 	/**
+	 * 
+	 * ----
 	 * 
 	 * #### `SQLUtils.rowsToObject(rows:Array<Object>, table:String, columnId:String)`
 	 * 
@@ -117,6 +125,8 @@ class SQLUtils {
 	}
 
 	/**
+	 * 
+	 * ----
 	 * 
 	 * #### `SQLUtils.whereToSQL(where:Array|Object, table:String, andPrefix:Boolean, defaultValue:String)`
 	 * 

@@ -11,6 +11,8 @@
 
 
 
+----
+
 #### `SQLUtils.die(...args:any)`
 
 
@@ -22,6 +24,8 @@
 
 
 
+
+----
 
 #### `SQLUtils.getPropertiesSQL(property:String|Any, table:String|Boolean)`
 
@@ -47,6 +51,8 @@
 
 
 
+----
+
 #### `SQLUtils.generateToken(length:Integer, charset:Array)`
 
 
@@ -70,6 +76,8 @@
 
 
 
+
+----
 
 #### `SQLUtils.rowsToObject(rows:Array<Object>, table:String, columnId:String)`
 
@@ -97,6 +105,8 @@
 
 
 
+
+----
 
 #### `SQLUtils.whereToSQL(where:Array|Object, table:String, andPrefix:Boolean, defaultValue:String)`
 
