@@ -4,7 +4,7 @@ Various SQL utilities for Node.js
 
 ## Installation
 
-`$ npm i -s sql-utils`
+`$ npm i -s @allnulled/sql-utils`
 
 ## Usage
 
