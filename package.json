@@ -1,6 +1,6 @@
 {
-  "name": "sql-utils",
-  "version": "1.0.0",
+  "name": "@allnulled/sql-utils",
+  "version": "0.0.1",
   "description": "Various SQL utilities for Node.js",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,12 @@
     "test": "mocha --sort --bail test/*.test.js",
     "cover": "nyc --reporter=html mocha --sort --bail test/**/*.test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "sql",
+    "utilities"
+  ],
+  "author": "allnulled",
+  "license": "WTFPL",
   "dependencies": {
     "sqlstring": "^2.3.1"
   },
