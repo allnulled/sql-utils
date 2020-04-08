@@ -1,27 +1,3 @@
-# sql-utils
-
-Various SQL utilities for Node.js
-
-## Installation
-
-`$ npm i -s sql-utils`
-
-## Usage
-
-```js
-const SQLUtils = require("sql-utils");
-const whereSQL = SQLUtils.whereToSQL({
-	name: "somename",
-	password: "somepassword"
-});
-const query = `SELECT * FROM user WHERE ${whereSQL}`;
-```
-
-## API
-
-------
-
-
 
 #### `const SQLUtils = require("sql-utils")`
 
@@ -150,16 +126,4 @@ const query = `SELECT * FROM user WHERE ${whereSQL}`;
 **Description**:  Returns SQL code to represent a specific `WHERE` statement part.
 
 
-
-
-
-------
-
-## License
-
-This project is under [WTFPL](https://es.wikipedia.org/wiki/WTFPL), which means basically: *do What The Fuck you want with it*.
-
-## Contact
-
-Please, address issues and suggestions [here](https://github.com/allnulled/sql-utils/issues). Thank you.
 
