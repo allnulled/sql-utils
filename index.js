@@ -163,7 +163,10 @@ class SQLUtils {
 				sql += "\nAND ";
 			}
 			let condition = [];
-			if(!Array.isArray(whereCondition)) {
+			if(typeof whereCondition === "string") {
+				sql += whereCondition;
+				return;
+			} else if(!Array.isArray(whereCondition)) {
 				throw new Error("Required <whereRule> to be an array");
 			} else if(whereCondition.length === 2) {
 				condition = [ whereCondition[0], "=", whereCondition[1] ];

@@ -61,6 +61,14 @@ describe("SQLUtils.whereToSQL(...)", function() {
 		expect(out).to.equal(" AND `mytable`.`name` IN ('my name', 'your name')\nAND `mytable`.`age` NOT IN ('my name', 'your name')");
 	});
 
+	it("can work with inline SQL injections", function() {
+		const out = SQLUtils.whereToSQL([
+			"name IN ('my name', 'your name')",
+			"age NOT IN ('my name', 'your name')"
+		], "mytable", true);
+		expect(out).to.equal(" AND name IN ('my name', 'your name')\nAND age NOT IN ('my name', 'your name')");
+	});
+
 	it("can format standard sql output", function() {
 		const out = SQLUtils.rowsToObject([
 			{"user.name": "name 1", "user.data": "data 1"},
