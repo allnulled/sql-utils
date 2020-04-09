@@ -1,6 +1,6 @@
 {
   "name": "@allnulled/sql-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Various SQL utilities for Node.js",
   "main": "index.js",
   "scripts": {
